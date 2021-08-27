@@ -1,0 +1,40 @@
+/* This here is setting up the input boxes for the contact form */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid Cyan;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* This here sets up the "Submit" button and its layout with colors and hover effect */
+input[type=submit] {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type=submit]:hover {
+    background-color: aqua;
+}
+
+/* This styles the contact form box */
+div {
+    border-radius: 5px;
+    background-color:blanchedalmond;
+    padding: 20px;
+}
+
+h2 {
+    color:cadetblue;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mina's Masonry</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<link rel="stylesheet" href="./CSS/animations1.css">
+		<script src="JS/one_page_website.js" defer></script>
+	</head>
+	<body>
+	
+		<!-- NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>QUOTES</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Mina's Masonry</span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section id="gallery">
+			<div class="container">
+				<h2 style="text-align:center">Gallery</h2>
+
+					<div class="row">
+						<div class="column">
+							<img src="./imagesmasonry/masonrypic_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+						</div>
+						<div class="column">
+							<img src="./imagesmasonry/masonrypic_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+						</div>
+						<div class="column">
+							<img src="./imagesmasonry/masonrypic_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+						</div>
+					</div>
+
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+
+							<div class="mySlides">
+								<div class="numbertext">1 / 3</div>
+								<img src="./imagesmasonry/masonrypic_1.jpg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">2 / 3</div>
+								<img src="./imagesmasonry/masonrypic_2.jpg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">3 / 3</div>
+								<img src="./imagesmasonry/masonrypic_3.jpg" style="width:100%">
+							</div>
+						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+
+						<div class="column">
+							<img class="demo cursor" src="./imagesmasonry/masonrypic_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Pavers">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./imagesmasonry/masonrypic_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="BBQ area">
+						</div>
+							<div class="column">
+							<img class="demo cursor" src="./imagesmasonry/masonrypic_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bricks">
+						</div>
+						
+					</div>
+					</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- Videos Section -->
+		<section>
+			<div>
+				<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/z1N_eHGIzj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jDgEqhz94-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div>
+						<h3>Pavers and Bricks Installation<h3>
+						<p>Here it shows how to install concrete pavers and another video of installing bricks.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END VIDEO SECTION -->
+			
+		
+		<!-- RSVP -->
+		 <section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">QUOTES</h1>
+					<div class="reservation">
+						<h2><span>Your next dream home can be manifested today!</span>
+							 <br />Apply for a quote today!
+						</h2>
+						<p class="rsvp-text">
+							Please provide us with your basic contact information.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-naturalist">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			<footer>www.minasmasonry.com 951-478-4881 &nbsp;|&nbsp; &copy; 2021</footer>
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>
+					

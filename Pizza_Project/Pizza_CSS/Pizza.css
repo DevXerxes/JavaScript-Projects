@@ -1,0 +1,89 @@
+/* This sets the position and size of the menu */
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+/* This sets the size of the frame for the menu */
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+/* this here defines the position and size of the total price of the users order */
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+
+/* this here defines the size and position of the left side of the menu */
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* this defines the size and position of the center of the menu Veggies */
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* this here defines the size and position of the right side of the menu */
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+/*This here defines the position and size of the user's order(text) */
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+/* this here defines the size and position of the boz which shows whats been selected in the order (cart) */
+#cart {
+    top: 0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+/* This here defines the size and position of the ORDER button */
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+}
+
+/* this here defines the background color of the website    */
+body {
+    background-image: url("../../Pizza_Project/Pizza_Img/pizza.jpg");
+    width: 100%;
+}
+
+/* this here defines the font family and color to the headings in 1 category */
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h3 {
+    color:lightseagreen;
+    font-family:cursive;
+}
+
+/* this here defines the font family and color of the div elements */
+div {
+    color: lightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

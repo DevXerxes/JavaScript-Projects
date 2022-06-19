@@ -2,9 +2,15 @@
 In this repository, you will find the projects created using JavaScript, which will enhance a website along with HTML and CSS. JavaScript includes functions to add programs on websites like ads, marketplace with an inventory, interactive search bars and etc.
 # Projects
 <br>
+<li>
+   <a href="https://github.com/DevXerxes/JavaScript-Projects/tree/main/Pizza_Project">Pizza Website</a>
+ </li>
+ <li>
+   <a href="https://github.com/DevXerxes/Python-Projects/commit/3ce9a678055d6126c67eef6e83375b8540425874">Web Page Generator</a>
+ </li>
 # Pizza menu:
-   -fully functional pizza menu website using JavaScript, HTML and CSS. Can order specific pizzas through this website. <link href="https://github.com/DevXerxes/JavaScript-Projects/tree/main/Pizza_Project">Pizza Project</link>
-TIC TAC TOE Game:
+   -fully functional pizza menu website using JavaScript, HTML and CSS. Can order specific pizzas through this website.
+# TIC TAC TOE Game:
     -the classic tic tac toe game that only one player wins lining up their X or O in 3 in a row to win.
-Calculator:
+# Calculator:
     - fully functional calculator that adds, subtracts, divides, and multiplies your problems

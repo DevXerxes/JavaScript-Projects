@@ -9,7 +9,7 @@ In this repository, you will find the projects created using JavaScript, which w
    <a href="https://github.com/DevXerxes/JavaScript-Projects/tree/main/TicTacToe">Tic Tac Toe</a>
  </li>
  <li>
-   <a href="https://github.com/DevXerxes/JavaScript-Projects/tree/main/TicTacToe">Tic Tac Toe</a>
+   <a href="https://github.com/DevXerxes/JavaScript-Projects/blob/main/JavaScript%20Projects/calculator.html">Calculator</a>
  </li>
  <br>
  
